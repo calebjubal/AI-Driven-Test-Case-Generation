@@ -56,3 +56,7 @@ trainer.train()
 
 # Save the model
 trainer.save_model("./results")
+
+# Evaluate the model and Fine-Tuning after eval
+trainer.evaluate()
+
